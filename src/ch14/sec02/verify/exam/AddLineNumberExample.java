@@ -26,6 +26,7 @@ public class AddLineNumberExample {
 			if((lineString=br.readLine())==null) break;
 			System.out.println((lineNumber++) + ":" + lineString);
 		}
+		System.out.println("깃허브에 올려보자!");
 		br.close();
 		fr.close();
 	}
